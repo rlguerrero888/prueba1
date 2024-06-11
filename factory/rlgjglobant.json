@@ -1,0 +1,9 @@
+{
+	"name": "rlgjglobant",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0fa52a68-3020-4a4a-8e9b-b1c17c11b148",
+		"tenantId": "4c819352-53fc-4011-9bfc-e8001178803d"
+	}
+}

@@ -83,8 +83,7 @@
 									"ordinal": 5
 								},
 								"sink": {
-									"name": "Column5",
-									"type": "String",
+									"name": "job_id",
 									"physicalType": "nvarchar"
 								}
 							}

@@ -55,7 +55,7 @@
 				]
 			},
 			{
-				"name": "Copy data1_copy1",
+				"name": "jobs",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {

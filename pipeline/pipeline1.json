@@ -43,13 +43,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "DelimitedText",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureTable1",
+						"referenceName": "AzureTable",
 						"type": "DatasetReference"
 					}
 				]

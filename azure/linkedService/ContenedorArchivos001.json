@@ -1,0 +1,11 @@
+{
+	"name": "ContenedorArchivos001",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://poccalmancen001.blob.core.windows.net/poc-rg-carga-inicial-001",
+			"authenticationType": "Anonymous"
+		}
+	}
+}

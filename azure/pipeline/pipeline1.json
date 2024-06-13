@@ -44,7 +44,7 @@
 									"ordinal": 1
 								},
 								"sink": {
-									"name": "id",
+									"name": "id_department",
 									"physicalType": "nvarchar"
 								}
 							},
@@ -54,8 +54,7 @@
 									"ordinal": 2
 								},
 								"sink": {
-									"name": "Column2",
-									"type": "String",
+									"name": "department",
 									"physicalType": "nvarchar"
 								}
 							}

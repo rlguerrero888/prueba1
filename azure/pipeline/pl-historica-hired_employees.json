@@ -110,7 +110,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "dwh",
+						"referenceName": "raw_jobs",
 						"type": "DatasetReference"
 					}
 				]

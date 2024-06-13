@@ -1,5 +1,5 @@
 {
-	"name": "raw_jobs",
+	"name": "raw_hired_employees",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "poc-rg-ls-sql-dwh-001",

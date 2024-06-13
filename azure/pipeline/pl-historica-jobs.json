@@ -40,7 +40,7 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
+									"type": "Integer",
 									"physicalType": "String",
 									"ordinal": 1
 								},
@@ -50,7 +50,7 @@
 							},
 							{
 								"source": {
-									"type": "String",
+									"type": "Integer",
 									"physicalType": "String",
 									"ordinal": 2
 								},

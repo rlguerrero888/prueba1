@@ -40,12 +40,14 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
-									"physicalType": "String",
+									"type": "Integer",
+									"physicalType": "Integer",
 									"ordinal": 1
 								},
 								"sink": {
-									"name": "id"
+									"name": "id",
+									"type": "Integer",
+									"physicalType": "Integer"
 								}
 							},
 							{

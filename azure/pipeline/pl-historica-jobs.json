@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "departments",
+				"name": "jobs",
 				"description": "Initial load from blob storage",
 				"type": "Copy",
 				"dependsOn": [],
@@ -68,7 +68,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "departmentscsv",
+						"referenceName": "jobscsv",
 						"type": "DatasetReference"
 					}
 				],

@@ -1,0 +1,30 @@
+{
+	"name": "jobscsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "poc-rg-ls-blob-001",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "jobs.csv",
+				"container": "poc-rg-carga-inicial-001"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}

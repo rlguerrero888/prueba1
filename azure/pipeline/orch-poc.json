@@ -21,14 +21,7 @@
 			{
 				"name": "pl-historica-hired_employees",
 				"type": "ExecutePipeline",
-				"dependsOn": [
-					{
-						"activity": "pl-historica-departmens",
-						"dependencyConditions": [
-							"Completed"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"secureInput": false
 				},
@@ -44,14 +37,7 @@
 			{
 				"name": "pl-historica-jobs",
 				"type": "ExecutePipeline",
-				"dependsOn": [
-					{
-						"activity": "pl-historica-hired_employees",
-						"dependencyConditions": [
-							"Completed"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"secureInput": false
 				},

@@ -1,0 +1,44 @@
+{
+	"name": "hiredemployeescsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "poc-rg-ls-blob-001",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "hired_employees.csv",
+				"container": "poc-rg-carga-inicial-001"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "1",
+				"type": "String"
+			},
+			{
+				"name": "Harold Vogt",
+				"type": "String"
+			},
+			{
+				"name": "2021-11-07T02:48:42Z",
+				"type": "String"
+			},
+			{
+				"name": "2",
+				"type": "String"
+			},
+			{
+				"name": "96",
+				"type": "String"
+			}
+		]
+	}
+}

@@ -20,7 +20,7 @@
 		},
 		"schema": [
 			{
-				"type": "Integer"
+				"type": "String"
 			},
 			{
 				"type": "String"

@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "poc-dwh-001",
-			"table": "departments_2"
+			"table": "raw_departments_2"
 		}
 	}
 }

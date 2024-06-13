@@ -41,21 +41,21 @@
 							{
 								"source": {
 									"type": "String",
+									"physicalType": "String",
 									"ordinal": 1
 								},
 								"sink": {
-									"name": "id_department",
-									"physicalType": "nvarchar"
+									"name": "id"
 								}
 							},
 							{
 								"source": {
 									"type": "String",
+									"physicalType": "String",
 									"ordinal": 2
 								},
 								"sink": {
-									"name": "department",
-									"physicalType": "nvarchar"
+									"name": "department"
 								}
 							}
 						],

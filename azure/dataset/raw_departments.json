@@ -31,7 +31,7 @@
 		],
 		"typeProperties": {
 			"schema": "poc-dwh-001",
-			"table": "jobs"
+			"table": "departments"
 		}
 	}
 }

@@ -18,6 +18,22 @@
 			"firstRowAsHeader": false,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"type": "Integer"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "Integer"
+			},
+			{
+				"type": "Integer"
+			}
+		]
 	}
 }

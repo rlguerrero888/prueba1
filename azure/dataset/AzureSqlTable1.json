@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "poc-dwh-001",
-			"table": "raw_hired_employees"
+			"table": "raw_jobs"
 		}
 	}
 }

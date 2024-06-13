@@ -31,7 +31,7 @@
 		],
 		"typeProperties": {
 			"schema": "poc-dwh-001",
-			"table": "hired_employes"
+			"table": "zr_hired_employes"
 		}
 	}
 }

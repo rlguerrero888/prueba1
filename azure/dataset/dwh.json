@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "dwh",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "poc-rg-ls-sql-dwh-001",

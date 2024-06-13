@@ -110,7 +110,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "dwh",
 						"type": "DatasetReference"
 					}
 				]

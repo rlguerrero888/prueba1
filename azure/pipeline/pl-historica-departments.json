@@ -49,19 +49,7 @@
 									"ordinal": 1
 								},
 								"sink": {
-									"type": "Integer",
-									"physicalType": "Integer",
 									"ordinal": 1
-								}
-							},
-							{
-								"source": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 2
-								},
-								"sink": {
-									"ordinal": 2
 								}
 							}
 						],

@@ -40,14 +40,14 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
-									"physicalType": "String",
+									"type": "Integer",
+									"physicalType": "Integer",
 									"ordinal": 1
 								},
 								"sink": {
 									"name": "id",
-									"type": "String",
-									"physicalType": "nvarchar"
+									"type": "Integer",
+									"physicalType": "Integer"
 								}
 							},
 							{
@@ -72,12 +72,14 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"physicalType": "String",
+									"type": "Integer",
+									"physicalType": "Integer",
 									"ordinal": 4
 								},
 								"sink": {
-									"name": "department_id"
+									"name": "department_id",
+									"type": "Integer",
+									"physicalType": "Integer"
 								}
 							},
 							{
@@ -87,7 +89,9 @@
 									"ordinal": 5
 								},
 								"sink": {
-									"name": "job_id"
+									"name": "job_id",
+									"type": "Integer",
+									"physicalType": "Integer"
 								}
 							}
 						],

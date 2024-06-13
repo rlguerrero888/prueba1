@@ -41,7 +41,7 @@
 							{
 								"source": {
 									"type": "Integer",
-									"physicalType": "String",
+									"physicalType": "Integer",
 									"ordinal": 1
 								},
 								"sink": {
@@ -51,7 +51,7 @@
 							{
 								"source": {
 									"type": "Integer",
-									"physicalType": "String",
+									"physicalType": "Integer",
 									"ordinal": 2
 								},
 								"sink": {

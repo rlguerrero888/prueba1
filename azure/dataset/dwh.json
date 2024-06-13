@@ -9,10 +9,24 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"type": "Integer"
+				"name": "id",
+				"type": "nvarchar"
 			},
 			{
-				"type": "String"
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "datetime",
+				"type": "nvarchar"
+			},
+			{
+				"name": "department_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "job_id",
+				"type": "nvarchar"
 			}
 		],
 		"typeProperties": {

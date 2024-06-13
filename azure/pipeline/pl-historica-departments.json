@@ -28,15 +28,9 @@
 						}
 					},
 					"sink": {
-						"type": "DelimitedTextSink",
-						"storeSettings": {
-							"type": "AzureBlobStorageWriteSettings"
-						},
-						"formatSettings": {
-							"type": "DelimitedTextWriteSettings",
-							"quoteAllText": true,
-							"fileExtension": ".txt"
-						}
+						"type": "AzureSqlSink",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false
 					},
 					"enableStaging": false,
 					"translator": {
@@ -48,9 +42,9 @@
 									"ordinal": 1
 								},
 								"sink": {
+									"name": "id",
 									"type": "String",
-									"physicalType": "String",
-									"ordinal": 1
+									"physicalType": "String"
 								}
 							},
 							{
@@ -59,9 +53,9 @@
 									"ordinal": 2
 								},
 								"sink": {
+									"name": "departments",
 									"type": "String",
-									"physicalType": "String",
-									"ordinal": 2
+									"physicalType": "String"
 								}
 							}
 						],
@@ -80,7 +74,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "departmentscsv",
+						"referenceName": "raw_departments",
 						"type": "DatasetReference"
 					}
 				]

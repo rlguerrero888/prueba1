@@ -55,7 +55,7 @@
 									"ordinal": 2
 								},
 								"sink": {
-									"name": "department"
+									"name": "jobs"
 								}
 							}
 						],

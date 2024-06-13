@@ -7,28 +7,7 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [
-			{
-				"name": "id",
-				"type": "nvarchar"
-			},
-			{
-				"name": "name",
-				"type": "nvarchar"
-			},
-			{
-				"name": "datetime",
-				"type": "nvarchar"
-			},
-			{
-				"name": "department_id",
-				"type": "nvarchar"
-			},
-			{
-				"name": "job_id",
-				"type": "nvarchar"
-			}
-		],
+		"schema": [],
 		"typeProperties": {
 			"schema": "poc-dwh-001",
 			"table": "zr_departments_2"

@@ -12,7 +12,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
-						"referenceName": "pl-historica-departmens",
+						"referenceName": "pl-historica-departments",
 						"type": "PipelineReference"
 					},
 					"waitOnCompletion": true

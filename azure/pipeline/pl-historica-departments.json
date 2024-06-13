@@ -1,5 +1,5 @@
 {
-	"name": "pl-historica-departmens",
+	"name": "pl-historica-departments",
 	"properties": {
 		"activities": [
 			{
@@ -28,11 +28,15 @@
 						}
 					},
 					"sink": {
-						"type": "AzureSqlSink",
-						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false,
-						"tableOption": "autoCreate",
-						"disableMetricsCollection": false
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
 					},
 					"enableStaging": false,
 					"translator": {
@@ -45,9 +49,9 @@
 									"ordinal": 1
 								},
 								"sink": {
-									"name": "id",
 									"type": "Integer",
-									"physicalType": "Integer"
+									"physicalType": "Integer",
+									"ordinal": 1
 								}
 							},
 							{
@@ -57,7 +61,7 @@
 									"ordinal": 2
 								},
 								"sink": {
-									"name": "department"
+									"ordinal": 2
 								}
 							}
 						],
@@ -76,7 +80,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "raw_jobs",
+						"referenceName": "departmentscsv",
 						"type": "DatasetReference"
 					}
 				]

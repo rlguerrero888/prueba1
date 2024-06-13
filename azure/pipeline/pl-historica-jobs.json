@@ -45,13 +45,15 @@
 									"ordinal": 1
 								},
 								"sink": {
-									"name": "id"
+									"name": "id",
+									"type": "Integer",
+									"physicalType": "Integer"
 								}
 							},
 							{
 								"source": {
-									"type": "Integer",
-									"physicalType": "Integer",
+									"type": "String",
+									"physicalType": "String",
 									"ordinal": 2
 								},
 								"sink": {

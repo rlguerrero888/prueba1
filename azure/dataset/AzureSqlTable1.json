@@ -7,7 +7,14 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"type": "Integer"
+			},
+			{
+				"type": "String"
+			}
+		],
 		"typeProperties": {
 			"schema": "poc-dwh-001",
 			"table": "raw_jobs"

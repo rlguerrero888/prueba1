@@ -45,11 +45,23 @@
 							{
 								"source": {
 									"type": "String",
-									"physicalType": "String",
 									"ordinal": 1
 								},
 								"sink": {
+									"type": "String",
+									"physicalType": "String",
 									"ordinal": 1
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 2
+								},
+								"sink": {
+									"type": "String",
+									"physicalType": "String",
+									"ordinal": 2
 								}
 							}
 						],

@@ -40,8 +40,8 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "Integer",
-									"physicalType": "Integer",
+									"type": "String",
+									"physicalType": "String",
 									"ordinal": 1
 								},
 								"sink": {
